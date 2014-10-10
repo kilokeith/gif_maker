@@ -1,0 +1,28 @@
+{
+  "name": "gif-maker",
+  "version": "0.0.1",
+  "description": "",
+  "private": true,
+  "keywords": [],
+  "homepage": "https://github.com/",
+  "bugs": "https://github.com/../issues",
+  "author": {
+    "name": "keith",
+    "email": "",
+    "url": "https://github.com/kilokeith"
+  },
+  "dependencies": {
+    "async": "latest",
+    "coffee-script": "^1.8.0",
+    "colors": "latest",
+    "gm": "^1.16.0",
+    "imagemagick": "^0.1.3",
+    "imagemin": "^0.4.7",
+    "lodash": "^2.4.1",
+    "moment": "latest",
+    "when": "latest"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  }
+}
