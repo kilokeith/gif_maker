@@ -45,7 +45,7 @@ resize = (src, dest, cb=null) ->
 compileGif = (frames=[], reverse=false, cb=null) ->
 	#lets it cycle back in reverse
 	if reverse
-		frames = frames.concat( frames.reverse()[1..] )
+		frames = frames.concat( frames[1..].reverse()[1..] )
 
 	params = [
 		"-loop", 0,
